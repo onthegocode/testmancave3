@@ -1,0 +1,1025 @@
+{
+  "current": {
+    "color_text": "#505050",
+    "link_color_text": "#03163a",
+    "menu_color_text": "#505050",
+    "color_body_text": "#505050",
+    "color_sale_text": "#2d68b3",
+    "color_button": "#2d68b3",
+    "color_button_text": "#fff",
+    "color_small_button_text_border": "#03163a",
+    "color_text_field_text": "#000000",
+    "color_text_field_border": "#ebecf0",
+    "color_text_field": "#fff",
+    "color_image_overlay_text": "#ffffff",
+    "color_image_overlay": "#ebecf0",
+    "image_overlay_opacity": 0,
+    "color_borders": "#ebecf0",
+    "color_body_bg": "#fff",
+    "type_header_font": "poppins_n6",
+    "type_header_base_size": 25,
+    "bold_main_menu": true,
+    "type_base_font": "poppins_n4",
+    "type_base_size": 15,
+    "type_bold_product_titles": false,
+    "share_image": "shopify:\/\/shop_images\/Man_Cave_Gamez_Logo_86081170-ba64-40ba-8da4-2cb0c4a6f91e.png",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "social_twitter_link": "",
+    "social_facebook_link": "https:\/\/www.facebook.com\/ManCaveGamez",
+    "social_pinterest_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/mancave.gamez\/",
+    "social_tumblr_link": "",
+    "social_snapchat_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "favicon": "shopify:\/\/shop_images\/Man_Cave_Gamez_Favicon.png",
+    "enable_ajax": true,
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Man-Cave-Games_Logo_Shopify2.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#ebecf0",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#03163a",
+    "checkout_button_color": "#2d68b3",
+    "checkout_error_color": "#e32c2b",
+    "footer_link_color": "#e8e9eb",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/Man-Cave-Games_Logo_Shopify2.png",
+          "logo_max_width": 185,
+          "contact_text": "Have a Question?",
+          "phone_text": "803.500.5068",
+          "hours_text": "Weekdays 9am-5pm",
+          "main_linklist": "main-menu",
+          "message": true,
+          "home_page_only": false,
+          "message_text": "Limited Time Offer -  Save 10% on All Orders over $250. Use Coupon Code MCG10 Offer Expires Saturday 4\/30 @ 11:59 PM EST",
+          "message_link": "",
+          "color_bg": "#2d68b3",
+          "color_text": "#ebecf0"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "text": {
+            "type": "text",
+            "settings": {
+              "title": "Have a Question?",
+              "text": "<p>Monday to Friday<br\/>9:00am - 5:00pm<br\/><br\/>info@mancavegamez.com<br\/>803.500.5068<\/p><p>1750 Hwy 160 W<br\/>Suite 101-283<br\/>Fort Mill, SC 29708<\/p>",
+              "footer_page": "shopify:\/\/shop_images\/Man-Cave-Logo__Full-Color.png",
+              "footer_page_max_width": "50"
+            }
+          },
+          "1566317717526": {
+            "type": "link_list",
+            "settings": {
+              "title": "Man Cave Gamez",
+              "menu": "footer"
+            }
+          },
+          "link_list": {
+            "type": "link_list",
+            "settings": {
+              "title": "Quick Links",
+              "menu": "quick-links"
+            }
+          },
+          "newsletter": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Newsletter",
+              "newsletter_text": "Sign up now for up-to-the-minute offers, sales and news."
+            }
+          }
+        },
+        "block_order": [
+          "text",
+          "1566317717526",
+          "link_list",
+          "newsletter"
+        ],
+        "settings": {
+          "show_payment_icons": true,
+          "color_footer_bg": "#ebecf0",
+          "color_footer_text": "#041638"
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "cart_ajax_enable": true,
+          "cart_notes_enable": false
+        }
+      },
+      "1566322931771": {
+        "type": "featured-blog",
+        "settings": {
+          "title": "Man Cave Gamez Blog",
+          "blog": "news",
+          "post_limit": 3,
+          "blog_show_author": false,
+          "blog_show_date": false,
+          "show_view_all": false
+        }
+      },
+      "1566322944679": {
+        "type": "collection",
+        "settings": {
+          "title": "What our customers are shopping for",
+          "collection": "best-sellers",
+          "grid": 4,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": false
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "image_size": "medium",
+          "show_quantity_selector": true,
+          "show_variant_labels": true,
+          "show_vendor": true,
+          "enable_zoom": true,
+          "enable_payment_button": false,
+          "show_share_buttons": true,
+          "expiring_coupon_text": "Limited Time 5% off All Orders over $100 <br>Coupon Code: <b>GAMEZ<\/b>",
+          "expiring_day": "2",
+          "show_eta": true,
+          "early_delivery": "5",
+          "late_delivery": "15",
+          "country_eta": "Days.",
+          "shipping_text": "",
+          "product_page": "shopify:\/\/shop_images\/new54_2.jpg",
+          "product_page_checkout": "shopify:\/\/shop_images\/new43.jpg",
+          "product_page_max_width": "90",
+          "product_reviews_enable": true
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "You may also like",
+          "show_vendor": false
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "blocks": {
+          "1570635298159": {
+            "type": "tag-list",
+            "settings": {
+              "title": "Collections",
+              "tags": "Games,\nAir\/Dome Hockey,\nArcade Games,\nBilliards,\nDartboards,\nFoosball,\nMulti Game Tables,\nTable Tennis,\nPoker Tables,\nShuffleboards,\nTabletop Games,"
+            }
+          },
+          "1573576954411": {
+            "type": "tag-list",
+            "settings": {
+              "title": "By Price",
+              "tags": "Under $500, \n$500 - $1000, \n$1000 - $2000 ,\n$2000 and up,"
+            }
+          },
+          "1566330921963": {
+            "type": "tag-list",
+            "settings": {
+              "title": "Featured",
+              "tags": "Best Sellers, Staff Picks, Top Rated, New Arrivals, On Sale Now"
+            }
+          }
+        },
+        "block_order": [
+          "1570635298159",
+          "1573576954411",
+          "1566330921963"
+        ],
+        "settings": {
+          "layout": "grid",
+          "grid": 3,
+          "rows": 8,
+          "show_collection_image": false,
+          "show_vendor": false,
+          "sort_enable": true,
+          "tags_enable": false,
+          "show_sidebar": true
+        }
+      },
+      "recently-viewed-products": {
+        "type": "recently-viewed-products",
+        "settings": {
+          "show_recently_viewed_products": true,
+          "title": "Recently Viewed Products"
+        }
+      },
+      "1570634612215": {
+        "type": "slideshow",
+        "blocks": {
+          "1570634612215-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Banner_Option_5_3.png",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "",
+              "button_link": "shopify:\/\/collections\/top-rated"
+            }
+          }
+        },
+        "block_order": [
+          "1570634612215-0"
+        ],
+        "settings": {
+          "slideshow_height": "adapt",
+          "text_size": "medium",
+          "text_alignment": "center center",
+          "show_overlay": false,
+          "autorotate": false,
+          "autorotate_speed": 5
+        }
+      },
+      "1570634671218": {
+        "type": "collection",
+        "settings": {
+          "title": "On Sale Now",
+          "collection": "on-sale-now",
+          "grid": 4,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": false
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "blog_show_author": true,
+          "blog_show_date": true,
+          "show_share_buttons": true
+        }
+      },
+      "1570646747012": {
+        "type": "slideshow",
+        "blocks": {
+          "1570646747012-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Banner_Option_5.png",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "",
+              "button_link": "shopify:\/\/pages\/buying-guide"
+            }
+          }
+        },
+        "block_order": [
+          "1570646747012-0"
+        ],
+        "settings": {
+          "slideshow_height": "adapt",
+          "text_size": "medium",
+          "text_alignment": "center center",
+          "show_overlay": false,
+          "autorotate": false,
+          "autorotate_speed": 5
+        }
+      },
+      "1573248787706": {
+        "type": "slideshow",
+        "disabled": true,
+        "blocks": {
+          "6d752550-de9d-413e-8234-d72950638157": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1_558efeb2-b11b-438e-aba3-7c1e2fb14044.png",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "",
+              "button_link": "shopify:\/\/collections\/nfl"
+            }
+          },
+          "6caf4951-5111-4233-8cbe-83692dfd85fc": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/3_8509fdbd-a90b-4824-a838-b6d1254bc879.png",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "",
+              "button_link": "shopify:\/\/collections\/ncaa"
+            }
+          },
+          "751abd61-db50-4cea-b828-2dc0f44f4133": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/2_502bfd87-cf3b-4c19-8e40-e69be6f60826.png",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "",
+              "button_link": "shopify:\/\/collections\/nhl"
+            }
+          },
+          "1573248787706-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Main_Slide_Option_1_2.png",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "",
+              "button_link": "shopify:\/\/collections\/all"
+            }
+          }
+        },
+        "block_order": [
+          "6d752550-de9d-413e-8234-d72950638157",
+          "6caf4951-5111-4233-8cbe-83692dfd85fc",
+          "751abd61-db50-4cea-b828-2dc0f44f4133",
+          "1573248787706-0"
+        ],
+        "settings": {
+          "slideshow_height": "adapt",
+          "text_size": "medium",
+          "text_alignment": "center center",
+          "show_overlay": false,
+          "autorotate": true,
+          "autorotate_speed": 9
+        }
+      },
+      "1600277716805": {
+        "type": "slideshow",
+        "blocks": {
+          "1600277716805-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Banner_Option_5_2.png",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "",
+              "button_link": "shopify:\/\/pages\/financing"
+            }
+          }
+        },
+        "block_order": [
+          "1600277716805-1"
+        ],
+        "settings": {
+          "slideshow_height": "adapt",
+          "text_size": "medium",
+          "text_alignment": "center center",
+          "show_overlay": false,
+          "autorotate": false,
+          "autorotate_speed": 5
+        }
+      },
+      "1622510404d1048c53": {
+        "type": "slideshow",
+        "blocks": {
+          "1622510404d1048c53-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Man_Cave_Gamez_Why_Buy_From_Us_Wide_1.png",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1622510404d1048c53-1"
+        ],
+        "settings": {
+          "slideshow_height": "adapt",
+          "text_size": "medium",
+          "text_alignment": "center center",
+          "show_overlay": true,
+          "autorotate": false,
+          "autorotate_speed": 5
+        }
+      },
+      "16225105067fdf0d9b": {
+        "type": "feature-columns",
+        "blocks": {
+          "16225105067fdf0d9b-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/1.png",
+              "title": "",
+              "text": "",
+              "button_label": "",
+              "button_link": "shopify:\/\/pages\/shipping"
+            }
+          },
+          "16225105067fdf0d9b-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/2.png",
+              "title": "",
+              "text": "",
+              "button_label": "",
+              "button_link": "shopify:\/\/pages\/price-match"
+            }
+          },
+          "16225105067fdf0d9b-2": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/3.png",
+              "title": "",
+              "text": "",
+              "button_label": "",
+              "button_link": "shopify:\/\/pages\/financing"
+            }
+          },
+          "f01adfde-9a9b-438c-a28e-76408c225b82": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/4.png",
+              "title": "",
+              "text": "",
+              "button_label": "",
+              "button_link": "shopify:\/\/pages\/contact-us"
+            }
+          }
+        },
+        "block_order": [
+          "16225105067fdf0d9b-0",
+          "16225105067fdf0d9b-1",
+          "16225105067fdf0d9b-2",
+          "f01adfde-9a9b-438c-a28e-76408c225b82"
+        ],
+        "settings": {
+          "title": "",
+          "align_text": "center"
+        }
+      },
+      "1622510686cafdf41f": {
+        "type": "feature-columns",
+        "blocks": {
+          "c8b61793-fe89-4eb9-b6ec-f3902523ffb9": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/528-5021_Bills_LIfestyle.png",
+              "title": "Browse our NFL products",
+              "text": "",
+              "button_label": "SHOP NOW",
+              "button_link": "shopify:\/\/collections\/nfl"
+            }
+          },
+          "d8dcd662-68b3-4102-af61-5846a57ffd9a": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/NCAA_ca6ce7af-808d-4b76-a9da-3c718da8be6e.png",
+              "title": "Browse our NCAA products",
+              "text": "",
+              "button_label": "SHOP NOW",
+              "button_link": "shopify:\/\/collections\/ncaa"
+            }
+          },
+          "f900f9db-4399-4b23-bfed-07da19cd5066": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/630-2005_Cubs_Lifestyle.png",
+              "title": "Browse our MLB products",
+              "text": "",
+              "button_label": "SHOP NOW",
+              "button_link": "shopify:\/\/collections\/mlb"
+            }
+          },
+          "5cf1737f-6b55-4346-bf85-db8d7c433e74": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/844-4001_Bruins_Lifestyle.png",
+              "title": "Browse our NHL products",
+              "text": "",
+              "button_label": "SHOP NOW",
+              "button_link": "shopify:\/\/collections\/nhl"
+            }
+          },
+          "6cd2ac04-a480-44aa-8472-bcd7fdc6f98c": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Poker_eda51ad3-e40e-4f83-be13-fd8de03f8e70.png",
+              "title": "Browse our Poker Tables",
+              "text": "",
+              "button_label": "SHOP NOW",
+              "button_link": "shopify:\/\/collections\/poker-tables"
+            }
+          },
+          "3070c936-b786-4501-9e33-9c3ec792e2b7": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Collection_Option_1_6_6dd86189-b59a-4b47-b485-2a85168ca02c.png",
+              "title": "Browse our Dart Boards",
+              "text": "",
+              "button_label": "SHOP NOW",
+              "button_link": "shopify:\/\/collections\/licensed-dartboards"
+            }
+          },
+          "64096435-d383-498a-a5aa-a17cd8e93604": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Collection_Option_1_f8af09ee-70f9-4542-ba60-0c3ab576c434.png",
+              "title": "Browse our Billiards Tables",
+              "text": "",
+              "button_label": "SHOP NOW",
+              "button_link": "shopify:\/\/collections\/billiards"
+            }
+          },
+          "1622510686cafdf41f-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Collection_Option_1_2_32eab81d-ac52-4c0d-bd1b-fab7cbe17e25.png",
+              "title": "Browse our Ping Pong Tables",
+              "text": "",
+              "button_label": "SHOP NOW",
+              "button_link": "shopify:\/\/collections\/table-tennis"
+            }
+          },
+          "1622510686cafdf41f-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Collection_Option_1_3_3ceeadd2-cc30-46bc-8671-ffee3e23a5e1.png",
+              "title": "Browse our Foosball Tables",
+              "text": "",
+              "button_label": "SHOP NOW",
+              "button_link": "shopify:\/\/collections\/foosball"
+            }
+          },
+          "1622510686cafdf41f-2": {
+            "type": "text_block",
+            "disabled": true,
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Collection_Option_1_4.png",
+              "title": "",
+              "text": "",
+              "button_label": "",
+              "button_link": "shopify:\/\/collections\/shuffleboards"
+            }
+          },
+          "36ef64ae-12f3-4bc4-9cd3-9b5dc3bd91fb": {
+            "type": "text_block",
+            "disabled": true,
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Collection_Option_1_5.png",
+              "title": "",
+              "text": "",
+              "button_label": "",
+              "button_link": "shopify:\/\/collections\/air-dome-hockey"
+            }
+          }
+        },
+        "block_order": [
+          "c8b61793-fe89-4eb9-b6ec-f3902523ffb9",
+          "d8dcd662-68b3-4102-af61-5846a57ffd9a",
+          "f900f9db-4399-4b23-bfed-07da19cd5066",
+          "5cf1737f-6b55-4346-bf85-db8d7c433e74",
+          "6cd2ac04-a480-44aa-8472-bcd7fdc6f98c",
+          "3070c936-b786-4501-9e33-9c3ec792e2b7",
+          "64096435-d383-498a-a5aa-a17cd8e93604",
+          "1622510686cafdf41f-0",
+          "1622510686cafdf41f-1",
+          "1622510686cafdf41f-2",
+          "36ef64ae-12f3-4bc4-9cd3-9b5dc3bd91fb"
+        ],
+        "settings": {
+          "title": "",
+          "align_text": "center"
+        }
+      },
+      "16462703278c83138b": {
+        "type": "slideshowhomepage",
+        "blocks": {
+          "16462703278c83138b-0": {
+            "type": "image",
+            "settings": {
+              "alignment": "center center",
+              "slide_title": "Image slide",
+              "subheading": "Tell your brand's story through images",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "16462703278c83138b-1": {
+            "type": "image",
+            "settings": {
+              "alignment": "center center",
+              "slide_title": "Image slide",
+              "subheading": "Tell your brand's story through images",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "16462703278c83138b-0",
+          "16462703278c83138b-1"
+        ],
+        "settings": {
+          "slideshow_height": "adapt",
+          "text_size": "medium",
+          "text_alignment": "center center",
+          "show_overlay": true,
+          "autorotate": false,
+          "autorotate_speed": 5
+        }
+      }
+    },
+    "content_for_index": [
+      "16462703278c83138b",
+      "1573248787706",
+      "16225105067fdf0d9b",
+      "1622510686cafdf41f",
+      "1566322944679",
+      "1570634612215",
+      "1622510404d1048c53",
+      "1570634671218",
+      "1600277716805",
+      "1566322931771",
+      "1570646747012"
+    ]
+  },
+  "presets": {
+    "Default": {
+      "color_text": "#3d4246",
+      "color_body_text": "#69727b",
+      "color_sale_text": "#557B97",
+      "color_borders": "#e8e9eb",
+      "color_button": "#557B97",
+      "color_button_text": "#fff",
+      "color_small_button_text_border": "#3d4246",
+      "color_text_field": "#fff",
+      "color_text_field_text": "#000",
+      "color_text_field_border": "#949494",
+      "color_image_overlay_text": "#fff",
+      "color_image_overlay": "#3d4246",
+      "image_overlay_opacity": 40,
+      "color_body_bg": "#fff",
+      "type_header_font": "work_sans_n6",
+      "type_header_base_size": 26,
+      "type_base_font": "work_sans_n4",
+      "type_base_size": 16,
+      "type_bold_product_titles": false,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+          }
+        },
+        "hero": {
+          "type": "hero",
+          "settings": {
+            "text_size": "large"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {
+              }
+            },
+            "slideshow-1": {
+              "type": "image",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "slideshow-1"
+          ],
+          "settings": {
+          }
+        },
+        "featured-collections": {
+          "type": "collection",
+          "settings": {
+            "collection": "frontpage"
+          }
+        },
+        "feature-row": {
+          "type": "feature-row",
+          "settings": {
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "link_list": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "link_list",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+          }
+        }
+      },
+      "content_for_index": [
+        "hero",
+        "featured-collections",
+        "feature-row",
+        "slideshow"
+      ]
+    },
+    "Light": {
+      "color_text": "#162950",
+      "color_body_text": "#6d6d6d",
+      "color_sale_text": "#DA2F0C",
+      "color_borders": "#e4e4e4",
+      "color_button": "#DA2F0C",
+      "color_button_text": "#ffffff",
+      "color_small_button_text_border": "#162950",
+      "color_text_field": "#ffffff",
+      "color_text_field_text": "#162950",
+      "color_text_field_border": "#909090",
+      "color_image_overlay_text": "#ffffff",
+      "color_image_overlay": "#3d3d3d",
+      "image_overlay_opacity": 40,
+      "color_body_bg": "#f8f8f8",
+      "type_header_font": "muli_n6",
+      "type_header_base_size": 26,
+      "type_base_font": "muli_n4",
+      "type_base_size": 18,
+      "type_bold_product_titles": true,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#e8f3f6",
+      "checkout_heading_font": "Roboto",
+      "checkout_body_font": "Source Sans Pro",
+      "checkout_accent_color": "#1990c6",
+      "checkout_button_color": "#23314e",
+      "checkout_error_color": "#ff6d6d",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo": "",
+            "logo_max_width": 135,
+            "main_linklist": "main-menu",
+            "message": true,
+            "color_bg": "#162950",
+            "color_text": "#ffffff"
+          }
+        },
+        "hero": {
+          "type": "hero",
+          "settings": {
+            "alignment": "center",
+            "hero_size": "x-large",
+            "text_size": "large"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center center"
+              }
+            },
+            "1492095993817": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center"
+              }
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "1492095993817"
+          ],
+          "settings": {
+            "slideshow_height": "medium",
+            "text_size": "medium",
+            "autorotate": false,
+            "autorotate_speed": 5
+          }
+        },
+        "featured-collections": {
+          "type": "collection",
+          "settings": {
+            "grid": 3,
+            "rows": 1,
+            "show_vendor": true,
+            "show_view_all": true
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "image_size": "medium",
+            "show_quantity_selector": false,
+            "show_variant_labels": true,
+            "show_vendor": false,
+            "enable_zoom": true,
+            "show_share_buttons": true
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "layout": "grid",
+            "grid": 2,
+            "rows": 2,
+            "show_collection_image": true,
+            "show_vendor": false,
+            "sort_enable": true,
+            "tags_enable": true
+          }
+        },
+        "1492033877875": {
+          "type": "quotes",
+          "blocks": {
+            "1492033877875-0": {
+              "type": "quote",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1492033877875-0"
+          ],
+          "settings": {
+          }
+        },
+        "1492033924902": {
+          "type": "custom-content",
+          "blocks": {
+            "1492033924902-0": {
+              "type": "text",
+              "settings": {
+                "width": "100%",
+                "alignment": "center",
+                "align_text": "center"
+              }
+            }
+          },
+          "block_order": [
+            "1492033924902-0"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "1492096252560": {
+          "type": "collection-list",
+          "blocks": {
+            "1492096252560-0": {
+              "type": "featured_collection",
+              "settings": {
+              }
+            },
+            "1492096252560-1": {
+              "type": "featured_collection",
+              "settings": {
+              }
+            },
+            "1492096252560-2": {
+              "type": "featured_collection",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1492096252560-0",
+            "1492096252560-1",
+            "1492096252560-2"
+          ],
+          "settings": {
+            "grid": 3
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "layout": "grid",
+            "blog_show_author": true,
+            "blog_show_date": false
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_author": true,
+            "blog_show_date": true,
+            "show_share_buttons": true
+          }
+        },
+        "cart-template": {
+          "type": "cart-template",
+          "settings": {
+            "cart_notes_enable": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "link_list": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "link_list",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+          }
+        }
+      },
+      "content_for_index": [
+        "hero",
+        "featured-collections",
+        "slideshow",
+        "1492033924902",
+        "1492096252560",
+        "1492033877875"
+      ]
+    }
+  }
+}

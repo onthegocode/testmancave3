@@ -1,0 +1,95 @@
+<style>
+.accordion {
+  color: #000;
+  cursor: pointer;
+  background: #fff;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  border-right: none;
+    border-left: none;
+/*   font-family: "Futura",sans-serif; */
+  font-weight: 500;
+  font-size: 15px;
+  transition: 0.4s;
+  margin-top: 5px;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.arrow {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 4px;
+  margin-bottom: 2px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.up {
+  transform: rotate(225deg);
+  -webkit-transform: rotate(225deg);
+  margin-bottom: -2px !important;
+  }
+.arrow-down-gap{
+	padding-right: 13px;
+}
+</style>
+
+<!-- <hr style="height: 1px;
+    background: gray; width:100%; margin: 1px 0;"> -->
+
+<button onclick="sampleFunction1()" class="accordion"><span class="arrow-down-gap"><i id="sampleDiv1" class="arrow down"></i></span>Shipping Options</button>
+<div class="panel">
+   {{ pages.shipping-descriptions.content }} 
+</div>
+<button onclick="sampleFunction2()" class="accordion"><span class="arrow-down-gap"><i id="sampleDiv2" class="arrow down"></i></span>Price Match Guarantee</button>
+<div class="panel">
+   {{ pages.price-match-1.content }} 
+</div>
+
+<!-- <hr style="height: 1px;
+    background: gray; width:100%; margin: 1px 0;"> -->
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+<script>
+  function sampleFunction1() {
+  var sampleElem = document.getElementById("sampleDiv1");
+  if (sampleElem.className === "arrow down") {
+    sampleElem.className = "arrow up";
+  } else {
+    sampleElem.className = "arrow down";
+  }
+}
+  function sampleFunction2() {
+  var sampleElem = document.getElementById("sampleDiv2");
+  if (sampleElem.className === "arrow down") {
+    sampleElem.className = "arrow up";
+  } else {
+    sampleElem.className = "arrow down";
+  }
+}
+</script>
